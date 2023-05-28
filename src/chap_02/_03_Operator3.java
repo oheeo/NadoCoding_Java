@@ -12,5 +12,9 @@ public class _03_Operator3 {
         System.out.println(5 == 3);  // (false)
         System.out.println(5 != 5);  // 5는 5와 같지 않다 (false)
         System.out.println(5 != 3);  // (true)
+
+        // System.out.println(1 < 3 < 5);  연속적으로 비교 연산은 불가
+        System.out.println(1 < 3 && 3 < 5);  // 이렇게는 쓸 수 있음 (true)
+        System.out.println((1 < 3) && (3 < 5));  // 가독성을 위해 괄호를 쓰는게 좋다
     }
 }
