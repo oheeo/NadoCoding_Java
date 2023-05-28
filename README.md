@@ -2,3 +2,4 @@
 
 ### Chap 01
 - <a href="https://github.com/oheeo/NadoCording_Java/blob/master/src/chap_01/_01_HelloWorld.java">Hello World!</a><br/>
+- <a href="https://github.com/oheeo/NadoCording_Java/blob/master/src/chap_01/_02_DataTypes.java">자료형</
