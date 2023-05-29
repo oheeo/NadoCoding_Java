@@ -9,11 +9,10 @@ public class _Quiz_02 {
         int height = 115;
 
 /* 나의 풀이 String result = (height >= 120) ? "키가 " + height + "cm 이므로 탑승 가능합니다" : "키가 " + height + "cm 이므로 탑승 불가능합니다";
-           System.out.println(result);  */
+            System.out.println(result);
+            결과는 똑같이 나오지만 코드가 지저분함 */
 
         String result = (height >= 120) ? "탑승 가능합니다" : "탑승 불가능합니다";
         System.out.println("키가 " + height + "cm 이므로 " + result);
-
-
     }
 }
