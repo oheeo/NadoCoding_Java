@@ -27,6 +27,7 @@ public class _08_NestedLoop {
              System.out.println();
              이 작업을 5번 한다고 생각하면돼  */
 
+        System.out.println("----------");
 
         /*
         12345
@@ -45,6 +46,7 @@ public class _08_NestedLoop {
             System.out.println();
         }
 
+        System.out.println("----------");
 
         // 별 (*) 왼쪽 삼각형 만들기
         /*
@@ -86,6 +88,7 @@ public class _08_NestedLoop {
 */
        // j <= i  조건은  j < i + 1  로 써도 같다.
 
+        System.out.println("----------");
 
         /*
 
@@ -108,6 +111,13 @@ public class _08_NestedLoop {
             }
             System.out.println();
         }
+
+        System.out.println("----------");
+
+
+
+
+
 
         }
     }
