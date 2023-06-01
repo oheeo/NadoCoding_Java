@@ -1,5 +1,7 @@
 ### 💻 Java Study
-나도코딩 Jave 기본편을 공부한 내용입니다.
+> 나도코딩 Jave 기본편을 공부한 내용입니다.
+
+</br>
 
 ### - Chap 01 -
 - <a href="https://github.com/oheeo/NadoCording_Java/blob/master/src/chap_01/_01_HelloWorld.java">Hello World!</a><br/>
