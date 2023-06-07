@@ -66,5 +66,7 @@ public class _08_별복습 {
             System.out.println();
         }
 
+        System.out.println("----------");
+
     }
 }
