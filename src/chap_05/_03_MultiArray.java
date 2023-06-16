@@ -23,5 +23,24 @@ public class _03_MultiArray {
         // C2 에 접근하려면?  (0부터 시작)
         System.out.println(seats[2][1]);
         System.out.println(seats[1][3]);  // B4
+
+        // 첫 줄에는 3칸, 둘째 줄에는 4칸, 셋째줄에는 5칸
+        String[][] seats2 = {
+                {"A1", "A2", "A3"},
+                {"B1", "B2", "B3", "B4"},
+                {"C1", "C2", "C3", "C4", "C5"}
+        };
+        System.out.println(seats2[0][2]);  // A3
+//        System.out.println(seats2[0][4]);  // 오류 (배열의 범위를 벗어났다)
+
+
+        // 3차원 배열 (세로, 가로, 높이)
+//        String[][][] marray = new String[][][] {
+//                { {}, {}, {} },
+//                { {}, {}, {} },
+//                { {}, {}, {} },
+//        };
+
+//        String[][][] marray = new String[3][3][3];
     }
 }
