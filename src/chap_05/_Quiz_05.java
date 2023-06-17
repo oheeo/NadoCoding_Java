@@ -23,5 +23,6 @@ public class _Quiz_05 {
             System.out.println("사이즈 " + size + " (재고 있음)");
         }
 
+
     }
 }

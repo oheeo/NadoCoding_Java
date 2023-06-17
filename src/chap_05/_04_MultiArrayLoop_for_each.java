@@ -12,7 +12,7 @@ public class _04_MultiArrayLoop_for_each {
 
         System.out.println("----------");
 
-        // for 문으로 배열 꺼내기
+        // for 문으로 1차원 배열 꺼내기
         int[] a = new int[3];
         for (int i = 0; i < a.length; i++) {
             a[i] = (i + 3);
@@ -21,7 +21,7 @@ public class _04_MultiArrayLoop_for_each {
 
         System.out.println("----------");
 
-        // for each 문으로 배열 꺼내기
+        // for each 문으로 1차원 배열 꺼내기
         int[] numbers = new int[5];
         int i = 1;
         for (int k : numbers) {

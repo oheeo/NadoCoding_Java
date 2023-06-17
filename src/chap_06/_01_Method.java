@@ -11,6 +11,5 @@ public class _01_Method {
         sayHello();    // "안녕하세요? 메소드 입니다." 출력
         sayHello();
         sayHello();
-
     }
 }

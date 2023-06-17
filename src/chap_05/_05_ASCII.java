@@ -2,7 +2,7 @@ package chap_05;
 
 public class _05_ASCII {
     public static void main(String[] args) {
-        // 아스키 코드 (ASKI) : 미국 표준 코드
+        // 아스키 코드 (ASKII) : 미국 표준 코드
         char c = 'A';  // 알파벳 대문자(A)는 65 부터 시작, 소문자(a)는 97 부터 시작, 숫자(0)는 48 부터 시작.
         System.out.println(c);
         System.out.println((int)c);  // 65
@@ -36,5 +36,7 @@ public class _05_ASCII {
             System.out.println();
         }
 
+        System.out.println("eng = " + eng);
     }
+    
 }
