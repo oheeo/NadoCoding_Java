@@ -40,27 +40,27 @@ public class _04_MultiArrayLoop_for_each {
         System.out.println("----------");
 
         // for each 문으로 2차원 배열 꺼내기 (방법1)
-//        int[][] numArr = new int[2][];
-//        int[] num1 = new int[5];
-//        int[] num2 = new int[10];
-//
-//        for (int j = 0; j < num1.length; j++) {
-//            num1[j] = j + 1;
-//        }
-//
-//        for (int j = 0; j < num2.length; j++) {
-//            num2[j] = j + 6;
-//        }
-//
-//        numArr[0] = num1;
-//        numArr[1] = num2;
-//
-//        for (int[] arr : numArr) {
-//            for (int n : arr) {
-//                System.out.print(n + " ");
-//            }
-//            System.out.println();
-//        }
+        int[][] numArr = new int[2][];
+        int[] num1 = new int[5];
+        int[] num2 = new int[10];
+
+        for (int j = 0; j < num1.length; j++) {
+            num1[j] = j + 1;
+        }
+
+        for (int j = 0; j < num2.length; j++) {
+            num2[j] = j + 6;
+        }
+
+        numArr[0] = num1;
+        numArr[1] = num2;
+
+        for (int[] arr : numArr) {
+            for (int n : arr) {
+                System.out.print(n + " ");
+            }
+            System.out.println();
+        }
 
         System.out.println("----------");
 
@@ -82,29 +82,29 @@ public class _04_MultiArrayLoop_for_each {
         System.out.println("----------");
 
         // for each 문으로 다중 배열 꺼내기 (방법1)
-//        int[][] multiArr = {
-//                {1, 1, 1},
-//                {2, 2, 2, 2, 2, 2},
-//                {3, 3, 3, 3}
-//        };
-//
-//        for (int[] e : multiArr) {
-//            for (int f : e) {
-//                System.out.print(f + " ");
-//            }
-//            System.out.println();
-//        }
+        int[][] multiArr = {
+                {1, 1, 1},
+                {2, 2, 2, 2, 2, 2},
+                {3, 3, 3, 3}
+        };
+
+        for (int[] e : multiArr) {
+            for (int f : e) {
+                System.out.print(f + " ");
+            }
+            System.out.println();
+        }
 
         System.out.println("----------");
 
         // for each 문으로 다중 배열 꺼내기 (방법2)
-        int[][] multiArr = new int[3][];
-        multiArr[0] = new int[5];
-        multiArr[1] = new int[7];
-        multiArr[2] = new int[10];
+        int[][] multiArr2 = new int[3][];
+        multiArr2[0] = new int[5];
+        multiArr2[1] = new int[7];
+        multiArr2[2] = new int[10];
 
         int k = 10;
-        for (int arr[] : multiArr) {
+        for (int arr[] : multiArr2) {
             for (int j : arr) {
                 arr[j] = k++;
                 System.out.print(arr[j] + " ");
