@@ -3,7 +3,7 @@ package chap_06;
 public class _03_Return {
     // 호텔 전화번호
     public static String getPhoneNumber() {
-        // ↑ 반환하는 값과 같은 타입인 String (void 는 반환값이 없을때)
+        // 반환하는 값과 같은 타입인 String (void 는 반환값이 없을때)
         String phoneNumber = "02-1234-5678";
         return phoneNumber;
     }
