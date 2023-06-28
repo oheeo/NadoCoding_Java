@@ -7,13 +7,14 @@ public class _04_ParameterAndReturn {
         // return number * number  // 이렇게 해도 됨
     }
 
-//    public static void powerByExp(int number, int exponent) {
-//        int result = 1;
-//        for (int i = 0; i < exponent; i++) {
-//            result *= number;
-//        }
-//        System.out.println(number + " 의 " + exponent + " 승은 " + result);
-//    }
+    public static int getPowerByExp(int number, int exponent) {
+        int result = 1;
+        for (int i = 0; i < exponent; i++) {
+            result *= number;
+        }
+        return result;
+    }
+
 
     public static void main(String[] args) {
         // 전달값과 반환값이 있는 메소드
@@ -22,5 +23,10 @@ public class _04_ParameterAndReturn {
 
         retVal = getPower(3);
         System.out.println(retVal);  // 3 * 3 = 9
+
+        retVal = getPowerByExp(3, 3);
+        System.out.println(retVal);  // 3 * 3 * 3 = 27
+
+        System.out.println(getPowerByExp(2, 4));  // 2 * 2 * 2 * 2 = 16
     }
 }
