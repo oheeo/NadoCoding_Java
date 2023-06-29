@@ -4,6 +4,10 @@ package chap_06;
 // 이름 : 나**
 // 주민등록번호 : 990130-1******
 // 전화번호 : 010-1234-****
+
+// 힌트
+// substring()
+// length()
 public class _Quiz_06 {
 
     public static String getHiddenData(String data, int index) {
