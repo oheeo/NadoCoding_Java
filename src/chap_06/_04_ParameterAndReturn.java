@@ -4,7 +4,7 @@ public class _04_ParameterAndReturn {
     public static int getPower(int number) {
         int result = number * number;
         return result;
-        // return number * number  // 이렇게 해도 됨
+        // return number * number  // 이렇게 해도 된다
     }
 
     public static int getPowerByExp(int number, int exponent) {
