@@ -7,6 +7,9 @@ public class _08_MainMethod {
             System.out.println(s);
         }
 
+        // 1. 도서 조회
+        // 2. 도서 대출
+        // 3. 도서 반납
         if (args.length == 1) {
             switch (args[0]) {
                 case "1":
