@@ -6,7 +6,7 @@ public class _07_VariableScope {
     }
 
     public static void methodB() {
-        int result = 1; // 지역 변수
+        int result = 1;
     }
 
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class _07_VariableScope {
         for (int i = 0; i < 5; i++) {
             System.out.println(i);
         }
-
 
         {
             int j = 0;
