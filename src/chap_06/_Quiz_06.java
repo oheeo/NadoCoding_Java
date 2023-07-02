@@ -15,7 +15,7 @@ public class _Quiz_06 {
         String hiddenData = data.substring(0, index); // 김나희 -> 김
         // for (int i = index; i < data.length(); i++)
         for (int i = 0; i < data.length() - index; i++) {
-            hiddenData += "*"; // 나**
+            hiddenData += "*"; // 김**
         }
         return hiddenData;
     }
