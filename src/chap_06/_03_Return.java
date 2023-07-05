@@ -15,12 +15,12 @@ public class _03_Return {
 
     // 호텔 엑티비티
     public static String getActivities() {
-        return "볼링장, 탁구장, 노래발";
+        return "볼링장, 탁구장, 노래방";
     }
 
     public static void main(String[] args) {
         // 반환값 return
-        String contactNumber = getPhoneNumber();  // 메소드 호출 후 반환되는 값을 받아서 뭔가들 해야겠지? 그러려면 변수로 선언
+        String contactNumber = getPhoneNumber();  // 메소드 호출 후 반환되는 값을 받아서 뭔가를 해야겠지? 그러려면 변수로 선언
         System.out.println("호텔 전화번호 : " + contactNumber);
 
         String address = getAddress();
