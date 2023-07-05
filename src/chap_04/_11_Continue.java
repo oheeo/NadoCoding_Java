@@ -2,7 +2,7 @@ package chap_04;
 
 public class _11_Continue {
     public static void main(String[] args) {
-        // for문
+        // for 문
         int max = 20;  // 최대 치킨 판매 수량
         int sold = 0;  // 현재 치킨 판매 수량
         int noShow = 17;  // 대기번호 17번 손님이 노쇼
@@ -24,7 +24,7 @@ public class _11_Continue {
         System.out.println("영업을 종료합니다.");
 
 
-        // while문
+        // while 문
         int index = 0;  // 손님 번호
         sold = 0;  // sold 초기화
         while (index < 50) {
