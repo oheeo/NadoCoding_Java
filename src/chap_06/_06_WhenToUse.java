@@ -16,7 +16,6 @@ public class _06_WhenToUse {
 
     public static void main(String[] args) {
         // 메소드가 필요한 이유
-
         System.out.println(getPower(2, 2));
         System.out.println(getPower(3, 3));
         System.out.println(getPower(4, 2));
