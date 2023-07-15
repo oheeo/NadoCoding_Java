@@ -1,8 +1,9 @@
 package chap_06;
 
 public class _08_MainMethod {
-
+    // 메인 메서드
     public static void main(String[] args) {
+        // 문자열을 여러개 갖고있는 String 배열을 전달값으로 받는 메서드
         for (String s : args) {
             System.out.println(s);
         }
